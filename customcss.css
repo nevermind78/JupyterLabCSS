@@ -15,6 +15,7 @@ body {counter-reset: h2}
 /*--------------------------------------------------------*/
 
 /*--------------------------------------------------------*/
+
 .jp-RenderedHTMLCommon h1 {
   max-width: 400px;
   position: relative;
@@ -24,13 +25,13 @@ body {counter-reset: h2}
   text-align: center;
   border-top:5px
   solid orangered;
-  border-top-left-radius: 3% 60%;
-  border-top-right-radius: 3% 60%;
+  border-top-left-radius: 10% 60%;
+  border-top-right-radius: 10% 60%;
   border-bottom:5px
   solid orangered;
-  border-bottom-left-radius: 3% 60%;
-  border-bottom-right-radius: 3% 60%;  
-  /*color: #228B22;*/
+  border-bottom-left-radius: 10% 60%;
+  border-bottom-right-radius: 10% 60%;  
+  
 }
 
 .jp-RenderedHTMLCommon h1:before {
@@ -53,21 +54,9 @@ body {counter-reset: h2}
 }
 
 
-.jp-RenderedHTMLCommon h4 {
-  font-size: var(--jp-content-font-size2);
-}
-
-.jp-RenderedHTMLCommon h5 {
-  font-size: var(--jp-content-font-size1);
-}
-
-.jp-RenderedHTMLCommon h6 {
-  font-size: var(--jp-content-font-size0);
-}
-
 
 .jp-RenderedHTMLCommon h2 {
-  max-width: 250px;
+  max-width: 400px;
   position: relative;
   font-size: var(--jp-content-font-size4);
   padding: 2 10px;
@@ -85,7 +74,7 @@ body {counter-reset: h2}
 
 
 .jp-RenderedHTMLCommon h3 {
-  max-width: 250px;
+  max-width: 400px;
   position: relative;
   font-size: var(--jp-content-font-size3);
   padding: 2 10px;
@@ -101,9 +90,9 @@ body {counter-reset: h2}
   border-bottom-right-radius: 3% 60%;
 }
 .jp-RenderedHTMLCommon h4 {
-  max-width: 250px;
+  max-width: 400px;
   position: relative;
-  font-size: var(--jp-content-font-size3);
+  font-size: var(--jp-content-font-size2);
   padding: 2 10px;
   margin: 10px left;
   text-align: center;
@@ -117,9 +106,9 @@ body {counter-reset: h2}
   border-bottom-right-radius: 3% 60%;
 }
 .jp-RenderedHTMLCommon h5 {
-  max-width: 250px;
+  max-width: 400px;
   position: relative;
-  font-size: var(--jp-content-font-size3);
+  font-size: var(--jp-content-font-size1);
   padding: 2 10px;
   margin: 10px left;
   text-align: center;
