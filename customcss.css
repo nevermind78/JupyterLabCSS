@@ -1,0 +1,87 @@
+/* header */
+
+/*--------------------------------------------------------*/
+.jp-RenderedHTMLCommon body {
+  counter-reset: h2counter;
+}
+.jp-RenderedHTMLCommon h1 {
+  counter-reset: h2counter;
+}
+.jp-RenderedHTMLCommon h2:before {
+  content: counter(h2counter) ".\0000a0\0000a0";
+  counter-increment: h2counter;
+  counter-reset: h3counter;
+}
+.jp-RenderedHTMLCommon h3:before {
+  content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+  counter-increment: h3counter;
+}
+
+
+/*--------------------------------------------------------*/
+.jp-RenderedHTMLCommon h1 {
+
+  font-size: 30px;
+  max-width: 400px;
+  position: relative;
+  font-size: var(--jp-content-font-size5);
+  padding: 2 10px;
+  margin: 10px auto;
+  text-align: center;
+  border-top:5px
+  solid orangered;
+  border-top-left-radius: 3% 60%;
+  border-top-right-radius: 3% 60%;
+  border-bottom:5px
+  solid orangered;
+  border-bottom-left-radius: 3% 60%;
+  border-bottom-right-radius: 3% 60%;  
+  /*color: #228B22;*/
+}
+
+.jp-RenderedHTMLCommon h1:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.jp-RenderedHTMLCommon h1:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+.jp-RenderedHTMLCommon h3 {
+  font-size: var(--jp-content-font-size3);
+}
+
+.jp-RenderedHTMLCommon h4 {
+  font-size: var(--jp-content-font-size2);
+}
+
+.jp-RenderedHTMLCommon h5 {
+  font-size: var(--jp-content-font-size1);
+}
+
+.jp-RenderedHTMLCommon h6 {
+  font-size: var(--jp-content-font-size0);
+}
+
+.jp-RenderedHTMLCommon h2 {
+  font-size: 30px;
+  display: inline-block;
+  font-size: var(--jp-content-font-size5);
+  padding: 2 10px;
+  margin: 10px left;
+  text-align: center;
+  border-top:5px
+  solid #407899ff;
+  border-top-left-radius: 3% 60%;
+  border-top-right-radius: 3% 60%;
+}
